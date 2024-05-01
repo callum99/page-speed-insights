@@ -1,3 +1,6 @@
+/*
+ * Mock chrome port, hold each of the methods that come with port
+ */
 class MockPort implements chrome.runtime.Port {
     public name: string;
 
