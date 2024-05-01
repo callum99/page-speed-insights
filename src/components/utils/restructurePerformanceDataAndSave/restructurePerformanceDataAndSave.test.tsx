@@ -24,7 +24,7 @@ describe('Restructure initial performance data and save to storage', () => {
                 }
             }
         }
-    }
+    };
     const storeDataExisting:storagePageType = {
         'google.com': {
             '2024-04-25T11:07:38.872Z': {
@@ -42,7 +42,7 @@ describe('Restructure initial performance data and save to storage', () => {
                 }
             }
         }
-    }
+    };
 
     beforeEach(()  => {
         jest.clearAllMocks();
@@ -80,7 +80,7 @@ describe('Restructure initial performance data and save to storage', () => {
                         }
                     }
                 }
-            },
+            }
         };
 
         await restructurePerformanceDataAndSave(websiteDataMock);
@@ -132,7 +132,7 @@ describe('Restructure initial performance data and save to storage', () => {
     it('Sets correct data from storage when NO eixsting data', async () => {
         //- overwrite return data from api to test else statement
         chrome.storage.local.get = jest.fn().mockImplementation(() => {
-            return storeDataNotExisting
+            return storeDataNotExisting;
         })
 
         // Spying on get storage data method

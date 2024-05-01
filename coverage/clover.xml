@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1714550562879" clover="3.2.0">
-  <project timestamp="1714550562879" name="All files">
+<coverage generated="1714553703489" clover="3.2.0">
+  <project timestamp="1714553703490" name="All files">
     <metrics statements="136" coveredstatements="82" conditionals="19" coveredconditionals="11" methods="27" coveredmethods="12" elements="182" coveredelements="105" complexity="0" loc="136" ncloc="136" packages="10" files="17" classes="17"/>
     <package name="src">
       <metrics statements="54" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="15" coveredmethods="0"/>
@@ -109,10 +109,10 @@
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="port.mock.tsx" path="/Users/callum.dewane/Documents/page-speed-insights/src/components/global/port.mock.tsx">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
         <line num="21" count="1" type="stmt"/>
         <line num="32" count="1" type="stmt"/>
       </file>
@@ -158,9 +158,9 @@
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="getCurrentTab.tsx" path="/Users/callum.dewane/Documents/page-speed-insights/src/components/utils/getCurrentTab/getCurrentTab.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components.utils.getLocalStoragePerformanceData">

@@ -16,7 +16,7 @@ exports[`renders component with all props 1`] = `
     <h3
       className="sc-dmyCSP fIgXkz"
     >
-      Page Speed metrics for: 
+      Page speed metrics for: 
       <span
         className="sc-jTQCzO boGIVm"
       >
@@ -35,7 +35,7 @@ exports[`renders component with all props 1`] = `
         className="sc-dmyCSP fIgXkz"
         id="current-performance"
       >
-        Current peformance
+        Current Peformance
       </h3>
     </div>
     <div
@@ -292,7 +292,7 @@ exports[`renders component with required props 1`] = `
     <h3
       className="sc-dmyCSP fIgXkz"
     >
-      Page Speed metrics for: 
+      Page speed metrics for: 
       <span
         className="sc-jTQCzO boGIVm"
       />

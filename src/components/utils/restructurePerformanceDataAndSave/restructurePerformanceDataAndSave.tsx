@@ -28,4 +28,4 @@ export const restructurePerformanceDataAndSave = async (incomingData: gatheredPa
     }
 
     await setLocalStoragePerformanceData(performanceData);
-}
+};

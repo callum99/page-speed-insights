@@ -22,7 +22,7 @@ const Dashboard = ({title, currentPage, hostName, historicPages}:DashboardProps)
         <DashboardContainer>
             <HeaderContainer role="banner">
                 <DashboardTitle>{title}</DashboardTitle>
-                <DashboardSubTitle>Page Speed metrics for: <DomainStyle>{hostName}</DomainStyle></DashboardSubTitle>
+                <DashboardSubTitle>Page speed metrics for: <DomainStyle>{hostName}</DomainStyle></DashboardSubTitle>
             </HeaderContainer>
             <BodyContainer>
                 {!currentPage ? (
@@ -32,7 +32,7 @@ const Dashboard = ({title, currentPage, hostName, historicPages}:DashboardProps)
                 ) : (
                     <>
                         <BodyContentContainer aria-labelledby="current-performance">
-                            <DashboardSubTitle id="current-performance">Current peformance</DashboardSubTitle>
+                            <DashboardSubTitle id="current-performance">Current Peformance</DashboardSubTitle>
                         </BodyContentContainer>
 
                         <BodyContentContainer>

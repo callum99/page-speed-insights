@@ -39,7 +39,7 @@ describe('watches for any changes made within storage', () => {
                     }
                 }
             }
-        }
+        };
 
         const myStorageChangedCallback = jest.fn().mockImplementation((newData: any) => {
             console.log('value updated', newData);
@@ -60,7 +60,7 @@ describe('watches for any changes made within storage', () => {
 
         chrome.storage.onChanged.addListener = jest.fn().mockImplementation((callback:(data: any) => void) => {
             callback({});
-        })
+        });
 
         const myStorageChangedCallback = jest.fn().mockImplementation((newData: any) => {
             console.log('value updated', newData);
@@ -70,4 +70,4 @@ describe('watches for any changes made within storage', () => {
 
         expect(myStorageChangedCallback).not.toHaveBeenCalled();
     });
-})
+});

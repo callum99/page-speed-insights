@@ -13,7 +13,7 @@ describe('Set storage method', () => {
                     }
                 }
             }
-        }
+        };
 
         await setLocalStoragePerformanceData(pageData);
 

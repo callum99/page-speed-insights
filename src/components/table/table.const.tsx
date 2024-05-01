@@ -67,4 +67,3 @@ export const historicDataOne:historicPagesType = {
         ...singlePageData
     }
 };
-
