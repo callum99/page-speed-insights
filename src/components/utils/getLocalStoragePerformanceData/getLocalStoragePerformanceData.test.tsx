@@ -13,13 +13,14 @@ describe('Get Locale chrome storage method', () => {
                     }
                 }
             }
-        }
+        };
+
         await getLocalStoragePerformanceData("google.com");
 
         expect(chrome.storage.local.get).toHaveBeenCalledWith("google.com");
 
         return chrome.storage.local.get("google.com").then(data => {
             expect(data).toStrictEqual(result);
-        })
+        });
     });
 });

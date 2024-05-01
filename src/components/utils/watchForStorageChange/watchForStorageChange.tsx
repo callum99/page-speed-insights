@@ -12,5 +12,5 @@ export const watchForStorageChange = (domain: string, callback: (change: any) =>
 
     return () => {
         chrome.storage.onChanged.removeListener(listener);
-    }
-}
+    };
+};

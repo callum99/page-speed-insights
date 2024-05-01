@@ -25,4 +25,3 @@ export const historicPageMock:historicPagesType = {
         ...singlePageMock
     }
 };
-

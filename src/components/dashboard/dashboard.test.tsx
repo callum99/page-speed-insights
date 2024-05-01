@@ -10,4 +10,4 @@ it('renders component with required props', () => {
 it('renders component with all props', () => {
     const tree = renderer.create(<Dashboard title="performance insight" hostName="google.com" currentPage={singlePageMock} historicPages={historicPageMock} />).toJSON();
     expect(tree).toMatchSnapshot();
-})
+});

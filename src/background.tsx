@@ -23,7 +23,7 @@ chrome.runtime.onConnect.addListener((port) => {
 
         const storageUnsubscriber = watchForStorageChange(msg.domain, async (newValue) => {
             organiseStorageDataForSend(newValue, port);
-        })
+        });
 
         unsubscribers.push(storageUnsubscriber);
     });
@@ -31,7 +31,7 @@ chrome.runtime.onConnect.addListener((port) => {
     port.onDisconnect.addListener(() => {
         console.log('Popup window disconnected :(');
         unsubscribers.forEach(unsub => unsub());
-    })
+    });
 });
 
 //- One Time Message (saving PerformanceData to storage)

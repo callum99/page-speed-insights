@@ -6,7 +6,7 @@ window.addEventListener('load', async () => {
         TTFB: ((performance.timing.responseStart - performance.timing.fetchStart) /1000).toFixed(1),
         DOMContentLoadedTime: ((performance.timing.domComplete - performance.timing.domLoading) / 1000).toFixed(1),
         FullLoadTime: ((performance.timing.loadEventEnd - performance.timing.fetchStart) / 1000).toFixed(1)
-    }
+    };
     const domain = window.location.host;
     const date = new Date();
 
@@ -18,5 +18,3 @@ window.addEventListener('load', async () => {
         });
     })();
 });
-
-

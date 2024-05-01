@@ -27,9 +27,9 @@ describe('Oragnise data for send method',  () => {
                }
            }
        };
+
        const firstItem = Object.keys(data).length - 1;
        const currentPage = data[Object.keys(data)[firstItem]];
-
        const port = new MockPort('mock');
 
        organiseStorageDataForSend(data, port);
