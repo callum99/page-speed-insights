@@ -53,19 +53,6 @@ describe('Restructure initial performance data and save to storage', () => {
     });
 
     it('Gets correct data from storage', async () => {
-        const websiteDataMock:gatheredPageDataType = {
-            title: 'performance',
-            timestamp: '2024-04-25T11:07:38.872Z',
-            domain: 'google.com',
-            data: {
-                performance: {
-                    DOMContentLoadedTime: "0.1",
-                    FullLoadTime: "0.1",
-                    TTFB: "0.0"
-                }
-            }
-        };
-
         // Spying on get storage data method
         const getLocalStoragePerformanceData = {
             getStorage: (domain: string) => {
