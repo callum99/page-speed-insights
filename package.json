@@ -21,15 +21,15 @@
   "": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/protectednet/page-speed-insights-exercise.git"
+    "url": "git+https://github.com/callum99/page-speed-insights.git"
   },
   "keywords": [],
   "author": "Callum Dewane",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/protectednet/page-speed-insights-exercise/issues"
+    "url": "https://github.com/callum99/page-speed-insights/issues"
   },
-  "homepage": "https://github.com/protectednet/page-speed-insights-exercise#readme",
+  "homepage": "https://github.com/callum99/page-speed-insights#readme",
   "devDependencies": {
     "@types/chrome": "^0.0.266",
     "@types/jest": "^29.5.12",
