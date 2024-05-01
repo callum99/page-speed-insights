@@ -1,0 +1,687 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`does not render component, when no empty data object 1`] = `
+<table
+  aria-label="Historic Performance"
+  className="sc-beySPh jxDvqx"
+  role="table"
+>
+  <thead
+    className="sc-guDLey bzasjS"
+    role="rowgroup"
+  >
+    <tr
+      role="row"
+    >
+      <td
+        role="columnheader"
+      >
+        Date
+      </td>
+      <td
+        role="columnheader"
+      >
+        DOMContentLoadTime
+      </td>
+      <td
+        role="columnheader"
+      >
+        FullLoadTime
+      </td>
+      <td
+        role="columnheader"
+      >
+        TTFB
+      </td>
+    </tr>
+  </thead>
+  <tbody
+    role="rowgroup"
+  />
+</table>
+`;
+
+exports[`renders component with required props (showing 1 rows) 1`] = `
+<table
+  aria-label="Historic Performance"
+  className="sc-beySPh jxDvqx"
+  role="table"
+>
+  <thead
+    className="sc-guDLey bzasjS"
+    role="rowgroup"
+  >
+    <tr
+      role="row"
+    >
+      <td
+        role="columnheader"
+      >
+        Date
+      </td>
+      <td
+        role="columnheader"
+      >
+        DOMContentLoadTime
+      </td>
+      <td
+        role="columnheader"
+      >
+        FullLoadTime
+      </td>
+      <td
+        role="columnheader"
+      >
+        TTFB
+      </td>
+    </tr>
+  </thead>
+  <tbody
+    role="rowgroup"
+  >
+    <tr
+      className="sc-hLQSwg kRXjPu"
+      role="row"
+    >
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        2024-04-24T10:52:20.779Z
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`renders component with required props (showing 2 rows) 1`] = `
+<table
+  aria-label="Historic Performance"
+  className="sc-beySPh jxDvqx"
+  role="table"
+>
+  <thead
+    className="sc-guDLey bzasjS"
+    role="rowgroup"
+  >
+    <tr
+      role="row"
+    >
+      <td
+        role="columnheader"
+      >
+        Date
+      </td>
+      <td
+        role="columnheader"
+      >
+        DOMContentLoadTime
+      </td>
+      <td
+        role="columnheader"
+      >
+        FullLoadTime
+      </td>
+      <td
+        role="columnheader"
+      >
+        TTFB
+      </td>
+    </tr>
+  </thead>
+  <tbody
+    role="rowgroup"
+  >
+    <tr
+      className="sc-hLQSwg kRXjPu"
+      role="row"
+    >
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        2024-04-24T10:52:20.779Z
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+    </tr>
+    <tr
+      className="sc-hLQSwg kRXjPu"
+      role="row"
+    >
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        2024-04-24T10:12:09.664Z
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`renders component with required props (showing 3 rows) 1`] = `
+<table
+  aria-label="Historic Performance"
+  className="sc-beySPh jxDvqx"
+  role="table"
+>
+  <thead
+    className="sc-guDLey bzasjS"
+    role="rowgroup"
+  >
+    <tr
+      role="row"
+    >
+      <td
+        role="columnheader"
+      >
+        Date
+      </td>
+      <td
+        role="columnheader"
+      >
+        DOMContentLoadTime
+      </td>
+      <td
+        role="columnheader"
+      >
+        FullLoadTime
+      </td>
+      <td
+        role="columnheader"
+      >
+        TTFB
+      </td>
+    </tr>
+  </thead>
+  <tbody
+    role="rowgroup"
+  >
+    <tr
+      className="sc-hLQSwg kRXjPu"
+      role="row"
+    >
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        2024-04-24T10:52:20.779Z
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+    </tr>
+    <tr
+      className="sc-hLQSwg kRXjPu"
+      role="row"
+    >
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        2024-04-24T10:12:09.664Z
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+    </tr>
+    <tr
+      className="sc-hLQSwg kRXjPu"
+      role="row"
+    >
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        2024-04-24T09:34:38.019Z
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`renders component with required props (showing 4 rows) 1`] = `
+<table
+  aria-label="Historic Performance"
+  className="sc-beySPh jxDvqx"
+  role="table"
+>
+  <thead
+    className="sc-guDLey bzasjS"
+    role="rowgroup"
+  >
+    <tr
+      role="row"
+    >
+      <td
+        role="columnheader"
+      >
+        Date
+      </td>
+      <td
+        role="columnheader"
+      >
+        DOMContentLoadTime
+      </td>
+      <td
+        role="columnheader"
+      >
+        FullLoadTime
+      </td>
+      <td
+        role="columnheader"
+      >
+        TTFB
+      </td>
+    </tr>
+  </thead>
+  <tbody
+    role="rowgroup"
+  >
+    <tr
+      className="sc-hLQSwg kRXjPu"
+      role="row"
+    >
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        2024-04-24T10:52:20.779Z
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+    </tr>
+    <tr
+      className="sc-hLQSwg kRXjPu"
+      role="row"
+    >
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        2024-04-24T10:12:09.664Z
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+    </tr>
+    <tr
+      className="sc-hLQSwg kRXjPu"
+      role="row"
+    >
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        2024-04-24T09:34:38.019Z
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+    </tr>
+    <tr
+      className="sc-hLQSwg kRXjPu"
+      role="row"
+    >
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        2024-04-24T09:10:46.905Z
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`renders component with required props (showing max 5 rows) 1`] = `
+<table
+  aria-label="Historic Performance"
+  className="sc-beySPh jxDvqx"
+  role="table"
+>
+  <thead
+    className="sc-guDLey bzasjS"
+    role="rowgroup"
+  >
+    <tr
+      role="row"
+    >
+      <td
+        role="columnheader"
+      >
+        Date
+      </td>
+      <td
+        role="columnheader"
+      >
+        DOMContentLoadTime
+      </td>
+      <td
+        role="columnheader"
+      >
+        FullLoadTime
+      </td>
+      <td
+        role="columnheader"
+      >
+        TTFB
+      </td>
+    </tr>
+  </thead>
+  <tbody
+    role="rowgroup"
+  >
+    <tr
+      className="sc-hLQSwg kRXjPu"
+      role="row"
+    >
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        2024-04-24T10:52:20.779Z
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+    </tr>
+    <tr
+      className="sc-hLQSwg kRXjPu"
+      role="row"
+    >
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        2024-04-24T10:12:09.664Z
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+    </tr>
+    <tr
+      className="sc-hLQSwg kRXjPu"
+      role="row"
+    >
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        2024-04-24T09:34:38.019Z
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+    </tr>
+    <tr
+      className="sc-hLQSwg kRXjPu"
+      role="row"
+    >
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        2024-04-24T09:10:46.905Z
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+    </tr>
+    <tr
+      className="sc-hLQSwg kRXjPu"
+      role="row"
+    >
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        2024-04-24T08:13:14.099Z
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+      <td
+        className="sc-dmyCSP eJrouF"
+        role="cell"
+      >
+        0.1
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

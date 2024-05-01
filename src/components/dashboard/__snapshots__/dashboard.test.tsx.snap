@@ -1,0 +1,317 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders component with all props 1`] = `
+<div
+  className="sc-beySPh kUakdV"
+>
+  <div
+    className="sc-gLLuof gzhKmo"
+    role="banner"
+  >
+    <h1
+      className="sc-guDLey fAvhev"
+    >
+      performance insight
+    </h1>
+    <h3
+      className="sc-dmyCSP fIgXkz"
+    >
+      Page Speed metrics for: 
+      <span
+        className="sc-jTQCzO boGIVm"
+      >
+        google.com
+      </span>
+    </h3>
+  </div>
+  <div
+    className="sc-iBdnpw bOKPZc"
+  >
+    <div
+      aria-labelledby="current-performance"
+      className="sc-fsYfdN iFDQyj"
+    >
+      <h3
+        className="sc-dmyCSP fIgXkz"
+        id="current-performance"
+      >
+        Current peformance
+      </h3>
+    </div>
+    <div
+      className="sc-fsYfdN iFDQyj"
+    >
+      <span
+        className="sc-hLQSwg etwmzH"
+      >
+        DOM Content Load Time:
+      </span>
+      <span
+        className="sc-eDLKkx jVPvjI"
+      >
+         
+        0.1s
+      </span>
+      <br />
+      <span
+        className="sc-hLQSwg etwmzH"
+      >
+        Full Load Time:
+      </span>
+      <span
+        className="sc-eDLKkx jVPvjI"
+      >
+         
+        0.1s
+      </span>
+      <br />
+      <span
+        className="sc-hLQSwg etwmzH"
+      >
+        Time to First Byte:
+      </span>
+      <span
+        className="sc-eDLKkx jVPvjI"
+      >
+         
+        0.1s
+      </span>
+    </div>
+    <div
+      aria-labelledby="historic-performance"
+      className="sc-fsYfdN iFDQyj"
+    >
+      <h3
+        className="sc-dmyCSP fIgXkz"
+        id="historic-performance"
+      >
+        Historic Peformance
+      </h3>
+    </div>
+    <table
+      aria-label="Historic Performance"
+      className="sc-qZrbh kSekxv"
+      role="table"
+    >
+      <thead
+        className="sc-jsEeTM eVVQBk"
+        role="rowgroup"
+      >
+        <tr
+          role="row"
+        >
+          <td
+            role="columnheader"
+          >
+            Date
+          </td>
+          <td
+            role="columnheader"
+          >
+            DOMContentLoadTime
+          </td>
+          <td
+            role="columnheader"
+          >
+            FullLoadTime
+          </td>
+          <td
+            role="columnheader"
+          >
+            TTFB
+          </td>
+        </tr>
+      </thead>
+      <tbody
+        role="rowgroup"
+      >
+        <tr
+          className="sc-irLvIq ksyBsF"
+          role="row"
+        >
+          <td
+            className="sc-kFCroH flRlee"
+            role="cell"
+          >
+            2024-04-24T10:52:20.779Z
+          </td>
+          <td
+            className="sc-kFCroH flRlee"
+            role="cell"
+          >
+            0.1
+          </td>
+          <td
+            className="sc-kFCroH flRlee"
+            role="cell"
+          >
+            0.1
+          </td>
+          <td
+            className="sc-kFCroH flRlee"
+            role="cell"
+          >
+            0.1
+          </td>
+        </tr>
+        <tr
+          className="sc-irLvIq ksyBsF"
+          role="row"
+        >
+          <td
+            className="sc-kFCroH flRlee"
+            role="cell"
+          >
+            2024-04-24T10:12:09.664Z
+          </td>
+          <td
+            className="sc-kFCroH flRlee"
+            role="cell"
+          >
+            0.1
+          </td>
+          <td
+            className="sc-kFCroH flRlee"
+            role="cell"
+          >
+            0.1
+          </td>
+          <td
+            className="sc-kFCroH flRlee"
+            role="cell"
+          >
+            0.1
+          </td>
+        </tr>
+        <tr
+          className="sc-irLvIq ksyBsF"
+          role="row"
+        >
+          <td
+            className="sc-kFCroH flRlee"
+            role="cell"
+          >
+            2024-04-24T09:34:38.019Z
+          </td>
+          <td
+            className="sc-kFCroH flRlee"
+            role="cell"
+          >
+            0.1
+          </td>
+          <td
+            className="sc-kFCroH flRlee"
+            role="cell"
+          >
+            0.1
+          </td>
+          <td
+            className="sc-kFCroH flRlee"
+            role="cell"
+          >
+            0.1
+          </td>
+        </tr>
+        <tr
+          className="sc-irLvIq ksyBsF"
+          role="row"
+        >
+          <td
+            className="sc-kFCroH flRlee"
+            role="cell"
+          >
+            2024-04-24T09:10:46.905Z
+          </td>
+          <td
+            className="sc-kFCroH flRlee"
+            role="cell"
+          >
+            0.1
+          </td>
+          <td
+            className="sc-kFCroH flRlee"
+            role="cell"
+          >
+            0.1
+          </td>
+          <td
+            className="sc-kFCroH flRlee"
+            role="cell"
+          >
+            0.1
+          </td>
+        </tr>
+        <tr
+          className="sc-irLvIq ksyBsF"
+          role="row"
+        >
+          <td
+            className="sc-kFCroH flRlee"
+            role="cell"
+          >
+            2024-04-24T08:13:14.099Z
+          </td>
+          <td
+            className="sc-kFCroH flRlee"
+            role="cell"
+          >
+            0.1
+          </td>
+          <td
+            className="sc-kFCroH flRlee"
+            role="cell"
+          >
+            0.1
+          </td>
+          <td
+            className="sc-kFCroH flRlee"
+            role="cell"
+          >
+            0.1
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`renders component with required props 1`] = `
+<div
+  className="sc-beySPh kUakdV"
+>
+  <div
+    className="sc-gLLuof gzhKmo"
+    role="banner"
+  >
+    <h1
+      className="sc-guDLey fAvhev"
+    >
+      performance insight
+    </h1>
+    <h3
+      className="sc-dmyCSP fIgXkz"
+    >
+      Page Speed metrics for: 
+      <span
+        className="sc-jTQCzO boGIVm"
+      />
+    </h3>
+  </div>
+  <div
+    className="sc-iBdnpw bOKPZc"
+  >
+    <div
+      aria-labelledby="current-performance"
+      className="sc-fsYfdN iFDQyj"
+    >
+      <h3
+        className="sc-dmyCSP fIgXkz"
+        id="current-performance"
+      >
+        Waiting on storage data, refresh!
+      </h3>
+    </div>
+  </div>
+</div>
+`;
